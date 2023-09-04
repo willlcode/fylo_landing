@@ -5,8 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="style.css">
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,6 +13,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.className += ' js'</script>
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
 </head>
@@ -32,7 +32,7 @@
   </header>
 
   <main>
-    <section class="sessaoPrimaria container">
+    <section class="sessaoPrimaria container js-scroll">
       <div class="sessaoPrimariaIntro">
         <h1 class="fonteTitulo cor-5">Arquivos em local seguro, acessível em qualquer lugar.</h1>
         <p>Fylo armazena seus arquivos mais importantes em um local seguro. Acesse-os sempre que precisar, compartilhe e colabore com amigos, familiares e colegas de trabalho.</p>
@@ -43,7 +43,7 @@
       <img src="./images/illustration-1.svg">
     </section>
 
-    <section class="sessaoSecundariaBg">
+    <section class="sessaoSecundariaBg js-scroll">
       <div class="sessaoSecundaria container">
         <div class="sessaoSecundariaIntro">
           <h2 class="fonteTitulo cor-5">Mantenha-se produtivo, em qualquer lugar</h2>
@@ -55,7 +55,7 @@
           </div>
         </div>
 
-        <div class="sessaoSecundariaFeedback">
+        <div class="sessaoSecundariaFeedback js-scroll">
           <img src="./images/icon-quotes.svg">
           <p>Fylo melhorou nossa produtividade em uma ordem de grandeza. Nossa equipe se tornou uma máquina de colaboração bem-sucedida.</p>
           <div class="sessaoSecundariaFeedbackFoto">
@@ -69,8 +69,8 @@
       </div>
     </section>
 
-    <section class="sessaoTerciariaBg">
-      <div class="sessaoTerciariaIntro container">
+    <section class="sessaoTerciariaBg ">
+      <div class="sessaoTerciariaIntro container js-scroll">
         <div class="sessaoTerciariaInfo">
           <h3 class='fonteTitulo cor-0'>Obtenha acesso antecipado hoje</h3>
           <p class="cor-1">Leva apenas um minuto para se inscrever e nosso nível inicial gratuito é extremamente generoso. Se você tiver alguma dúvida, nossa equipe de suporte ficará feliz em ajudá-lo.</p>
@@ -86,7 +86,7 @@
   </main>
 
   <footer class="footerBg">
-    <div class="footerMenu cor-0 container">
+    <div class="footerMenu cor-0 container js-scroll">
 
       <img src="./images/logo.svg">
 
@@ -117,6 +117,8 @@
       </div>
     </div>
   </footer>
+
+  <script src="./script.js"></script>
 </body>
 
 </html>
